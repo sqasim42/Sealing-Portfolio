@@ -10,11 +10,11 @@ export const NAVIGATION = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/capabilities' },
   { name: 'Contact', href: '/contact' },
-] as const;
+ ] as const;
 
 export const SOCIAL_LINKS = {
   linkedin: 'https://linkedin.com/company/yourcompany',
   twitter: 'https://twitter.com/yourcompany',
   facebook: 'https://facebook.com/yourcompany',
-  as const;
+} as const;
 
