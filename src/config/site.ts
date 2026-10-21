@@ -1,20 +1,16 @@
-// Site configuration
 export const SITE = {
-  title: 'AstroFlow',
-  description: 'Leading provider of optimized logistics and manufacturing solutions with state-of-the-art facilities and industry expertise.',
-  url: 'https://yourdomain.com',
-  author: 'AstroFlow',
+  title: 'Al-Hamd Traders',
+  description: 'Industrial sealing, insulation, and PTFE solutions for sugar mills, chemical plants, and power stations.',
+  url: 'https://sqasim42.github.io/Sealing-Portfolio',
+  author: 'Al-Hamd Traders',
 } as const;
 
 export const NAVIGATION = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/capabilities' },
   { name: 'Contact', href: '/contact' },
- ] as const;
+] as const;
 
-export const SOCIAL_LINKS = {
-  linkedin: 'https://linkedin.com/company/yourcompany',
-  twitter: 'https://twitter.com/yourcompany',
-  facebook: 'https://facebook.com/yourcompany',
+export const SOCIALS = {
+  // add your links if needed
 } as const;
-
