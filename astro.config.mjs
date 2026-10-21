@@ -11,3 +11,10 @@ export default defineConfig({
     plugins: [tailwindcss()]
   }
 });
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  site: 'https://sqasim42.github.io',
+  base: '/Sealing-Portfolio',
+  // ... any other settings you already had (like integrations) stay here
+});
