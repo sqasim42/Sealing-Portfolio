@@ -18,96 +18,194 @@ import ctaBgImg from '@assets/photo-1553413077-190dd305871c.jpg';
 
 const capabilities = [
   {
-    title: 'Warehousing & Storage',
-    description: 'State-of-the-art warehousing facilities equipped with advanced inventory management systems, climate control, and 24/7 security.',
+    title: 'Aramid Gland Packing',
+    description: 'Braided Kevlar/aramid packing for rotary pumps, valves, and mixers where high strength and temperature resistance are required.',
     icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+      <circle cx="12" cy="12" r="9" stroke-width="2" />
+      <path stroke-width="2" d="M7 12h10M12 7v10" />
     </svg>`,
     image: warehouseImg,
     features: [
-      'Climate-controlled storage',
-      'Automated inventory tracking',
-      'Cross-docking capabilities',
-      'Hazmat certified facilities',
-      'Real-time stock visibility'
+      'Aramid (Kevlar) fibre',
+      'Max temperature 260°C',
+      'pH range 3 – 12',
+      'Max shaft speed 10 m/s',
+      'Sizes 3 mm to 25 mm'
     ]
   },
   {
-    title: 'Manufacturing Services',
-    description: 'ISO 9001 certified manufacturing with precision engineering, quality control, and flexible production capabilities.',
+    title: 'Asbestos Rope & Tape',
+    description: 'Braided asbestos rope and woven tape for kiln door sealing, boiler lagging, and high-temperature insulation up to 550°C.',
     icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+      <rect x="4" y="8" width="16" height="8" rx="1" stroke-width="2" />
+      <path stroke-width="2" d="M8 8v8M12 8v8M16 8v8" />
     </svg>`,
-    image: manufacturingImg,
+    image: warehouseImg,
     features: [
-      'CNC machining & fabrication',
-      'Assembly & kitting',
-      'Quality inspection',
-      'Prototype development',
-      'Custom tooling & fixtures'
+      'Asbestos fibre, braided or twisted',
+      'Temperature range 250°C – 550°C',
+      'Round, square, or rectangular section',
+      'Diameters 6 mm to 50 mm',
+      'Tape widths 25 mm to 100 mm'
     ]
   },
   {
-    title: 'Transportation & Distribution',
-    description: 'Comprehensive multi-modal transportation network ensuring efficient, reliable delivery across all regions.',
+    title: 'Ceramic Fiber Wool',
+    description: 'Alumina-silica ceramic fibre for direct flame exposure, kiln gaskets, and insulation up to 1260°C.',
     icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v18M5 8l14 8M19 8L5 16" />
     </svg>`,
-    image: transportationImg,
+    image: warehouseImg,
     features: [
-      'Ground transportation (LTL/FTL)',
-      'Air freight services',
-      'Ocean freight',
-      'Last-mile delivery',
-      'Route optimization'
+      'Alumina-silica ceramic fibre',
+      'Classification temperature 1260°C',
+      'Continuous use up to ~1050°C',
+      'Density 96 – 128 kg/m³',
+      'Ideal for kiln and furnace gaskets'
     ]
   },
   {
-    title: 'Supply Chain Management',
-    description: 'End-to-end supply chain solutions with advanced analytics, forecasting, and optimization capabilities.',
+    title: 'Glass Tape & Wool',
+    description: 'E-glass tape and glass wool insulation for thermal protection of pipes, cables, and HVAC systems up to 550°C.',
     icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12h16M4 6h16M4 18h16" />
     </svg>`,
-    image: supplyChainImg,
+    image: warehouseImg,
     features: [
-      'Demand forecasting',
-      'Inventory optimization',
-      'Network design',
-      'Risk management',
-      'Performance analytics'
+      'E-glass fibre construction',
+      'Max temperature ~550°C',
+      'Widths 25 mm to 100 mm',
+      'Thickness 1 mm to 3 mm',
+      'Non-combustible, acid-resistant'
     ]
   },
   {
-    title: 'Value-Added Services',
-    description: 'Comprehensive value-added services to enhance your product offerings and streamline operations.',
+    title: 'Graphite Packing with Inconel Wire',
+    description: 'Expanded graphite yarn reinforced with Inconel wire for high-pressure steam, boilers, and cryogenic service up to 650°C.',
     icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+      <circle cx="12" cy="12" r="9" stroke-width="2" />
+      <path stroke-width="2" d="M8 12h8M12 8v8" />
     </svg>`,
-    image: valueAddedServicesImg,
+    image: warehouseImg,
     features: [
-      'Product labeling & packaging',
-      'Returns management',
-      'Quality inspection',
-      'Kit assembly',
-      'Custom packaging design'
+      'Expanded graphite + Inconel wire',
+      'Max temperature 650°C',
+      'pH range 0 – 14',
+      'High-pressure valves & boilers',
+      'Sizes 3 mm square to 25 mm square'
     ]
   },
   {
-    title: 'Technology & Integration',
-    description: 'Advanced technology platform with seamless integration capabilities for complete visibility and control.',
+    title: 'Non-Asbestos Jointing Sheet',
+    description: 'Aramid/mineral fibre sheet with NBR binder for pipeline joints, water, and steam service up to 400°C.',
     icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      <rect x="3" y="6" width="18" height="12" rx="1" stroke-width="2" />
+      <path stroke-width="2" d="M7 10h10M7 14h10" />
     </svg>`,
-    image: technologyIntegrationImg,
+    image: warehouseImg,
     features: [
-      'WMS & TMS integration',
-      'EDI & API connectivity',
-      'Real-time tracking',
-      'Automated reporting',
-      'Mobile applications'
+      'Aramid/mineral fibre + NBR rubber',
+      'Max temperature 200°C standard',
+      'Up to ~450°C HT grade',
+      'Max pressure ~20 bar',
+      'Thickness 0.5 mm to 3 mm'
+    ]
+  },
+  {
+    title: 'PTFE Rods & Sheets',
+    description: 'Virgin PTFE rod and sheet for chemical-resistant seals, food-contact applications, and low-friction components.',
+    icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <rect x="4" y="4" width="16" height="16" rx="2" stroke-width="2" />
+      <circle cx="12" cy="12" r="3" stroke-width="2" />
+    </svg>`,
+    image: warehouseImg,
+    features: [
+      'Virgin PTFE (100%)',
+      'Temperature range -180°C to +260°C',
+      'Chemical resistance pH 0–14 (inert)',
+      'Rod diameter 5 mm to 100 mm+',
+      'Sheet thickness 0.5 mm to 50 mm'
+    ]
+  },
+  {
+    title: 'PTFE-Coated Fiberglass Fabric',
+    description: 'Non-stick PTFE-coated fibreglass fabric with excellent chemical resistance and UV/IR/microwave resistance.',
+    icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16v12H4zM8 6v12M16 6v12" />
+    </svg>`,
+    image: warehouseImg,
+    features: [
+      'PTFE-coated woven fibreglass',
+      'Temperature range -50°C to +260°C',
+      'Non-stick, low-friction surface',
+      'Thickness 0.08 mm to 0.5 mm',
+      'Adhesive and non-adhesive options'
+    ]
+  },
+  {
+    title: 'Silicone Rubber Sheet',
+    description: 'VMQ silicone sheet for pharmaceutical gaskets, industrial seals, and electrical insulation up to 300°C.',
+    icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <rect x="3" y="7" width="18" height="10" rx="2" stroke-width="2" />
+      <path stroke-width="2" d="M7 12h10" />
+    </svg>`,
+    image: warehouseImg,
+    features: [
+      'Silicone rubber (VMQ)',
+      'Temperature range -60°C to +230°C',
+      'Peaks up to ~300°C',
+      'Hardness 40 – 70 Shore A',
+      'Thickness 1 mm to 10 mm'
+    ]
+  },
+  {
+    title: 'Reflex Gauge Glass',
+    description: 'Toughened borosilicate reflex glass for high-pressure steam level gauges with prismatic face for clear level reading.',
+    icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <rect x="5" y="4" width="14" height="16" rx="2" stroke-width="2" />
+      <path stroke-width="2" d="M9 8h6M9 12h6M9 16h6" />
+    </svg>`,
+    image: warehouseImg,
+    features: [
+      'Toughened borosilicate glass',
+      'Reflex (prismatic face)',
+      'High-pressure steam service',
+      'Standard gauge lengths',
+      'Low maintenance cost'
+    ]
+  },
+  {
+    title: 'Transparent PVC Curtain',
+    description: 'Clear flexible PVC strip curtain for cold storage, dust control, and temperature retention in industrial doorways.',
+    icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v16M8 4v16M12 4v16M16 4v16M20 4v16" />
+    </svg>`,
+    image: warehouseImg,
+    features: [
+      'Clear flexible PVC',
+      'Temperature range -15°C to +60°C',
+      'Freezer grade to -25°C',
+      'Strip width 200 mm / 300 mm',
+      'Strip thickness 2 mm / 3 mm'
+    ]
+  },
+  {
+    title: 'Polyester Wadding Filter',
+    description: 'Lofted polyester wadding for air/dust filtration in power plants, fuel separators, and compressor intakes.',
+    icon: `<svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 12h16M4 16h16" />
+    </svg>`,
+    image: warehouseImg,
+    features: [
+      'Lofted polyester wadding',
+      'Air / dust filtration',
+      'Coarse / pre-filter (G-class)',
+      'Roll or cut pad form',
+      'Washable and allergy-friendly'
     ]
   }
 ];
+
 ---
 
 <BaseLayout title="Our Capabilities - AstroFlow">
