@@ -11,6 +11,7 @@ export const NAVIGATION = [
   { name: 'Contact', href: '/contact' },
 ] as const;
 
-export const SOCIALS = {
-  // add your links if needed
-} as const;
+export const SOCIAL_LINKS = [
+  { name: 'WhatsApp', href: 'https://wa.me/', icon: 'lucide:message-circle' },
+  { name: 'Email', href: 'mailto:', icon: 'lucide:mail' },
+] as const;
