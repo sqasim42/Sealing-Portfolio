@@ -6,5 +6,4 @@ export default defineConfig({
   site: 'https://sqasim42.github.io',
   base: '/Sealing-Portfolio',
   integrations: [react(), icon()],
-  vite: {},
 });
